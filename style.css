@@ -1,0 +1,16 @@
+.banner {
+    background: url("https://i.pinimg.com/originals/d3/6d/46/d36d462db827833805497d9ea78a1343.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 40%;
+    padding-bottom: 20%;
+    color:black ;
+}
+
+.kontak{
+    background: url("https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
+ 
