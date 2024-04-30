@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacky Snack</title>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav 
+        class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top"
+    >
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo snacky snack (2).png"  width="80" height="80">
+              </a>
+            <a class="navbar-brand" href="#">Snacky Snack</a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarText" 
+                aria-controls="navbarText" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about us">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#layanan">Layanan</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimoni produk">Testimoni Produk </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact us">Contact Us</a>
+                </li>
+             </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <div class="container-fluid banner">
+        <div class="container text-center">
+            <h4 class="display-1"><b>Welcome to Snacky Snack</b></h4>
+            <h5 class="display-6"><b>Temukan Camilan yang Anda Inginkan Disini</b></h5>
+            <a href="#about us">
+                <button type="button" class="btn btn-danger btn-lg mt-3 ">
+                    About Us
+                </button>
+            </a>
+        </div>
+    </div>
+    <!-- Layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+        <div class="container text-center">
+            <h2 class="display-3" id="layanan"><b>Layanan</b></h2>
+            <p>
+                Restoran kami menawarkan berbagai layanan untuk memastikan pengalaman bersantap yang menyenangkan bagi para tamu. 
+                Berikut adalah beberapa layanan yang kami sediakan
+            </p>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
+                      </svg>
+                    <h3 class="mt-3">Lokasi Strategis</h3>
+                    <p>
+                        Anda dapat dengan mudah mencapai restoran kami dengan berbagai jenis transportasi.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-bag-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                      </svg>
+                    <h3 class="mt-3">Harga Terjangkau</h3>
+                    <p>
+                        Pilihan yang tepat bagi Anda yang mencari tempat makan dengan hidangan lezat dan harga terjangkau. 
+                        Kunjungi restoran kami dan nikmati pengalaman kuliner yang memuaskan!
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                        <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9z"/>
+                        <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1zm1.038 3.018a6 6 0 0 1 .924 0 6 6 0 1 1-.924 0M0 3.5c0 .753.333 1.429.86 1.887A8.04 8.04 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5M13.5 1c-.753 0-1.429.333-1.887.86a8.04 8.04 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1"/>
+                      </svg>
+                    <h3 class="mt-3">Pelayanan Cepat</h3>
+                    <p>
+                        Pilihan yang tepat bagi Anda yang mencari tempat makan dengan pelayanan cepat, efisien, dan nyaman. 
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                      </svg>
+                    <h3 class="mt-3">Gratis Ongkir</h3>
+                    <p>
+                        Kunjungi website kami atau aplikasi pengantaran makanan favorit Anda untuk informasi lebih lanjut tentang promo gratis ongkir.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8m5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0"/>
+                        <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195z"/>
+                        <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083q.088-.517.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1z"/>
+                        <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 6 6 0 0 1 3.13-1.567"/>
+                      </svg>
+                    <h3 class="mt-3">Cash on Delivery</h3>
+                    <p>
+                        Nikmati kemudahan dan kelezatan hidangan dari Snacky Sncak dengan layanan Cash on Delivery. Pesan sekarang dan bayar tunai saat pesanan diantar!
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                      </svg>
+                    <h3 class="mt-3">Service 24 Jam</h3>
+                    <p>
+                        Snacky Snack hadir 24 jam untuk memenuhi keinginan Anda terhadap kuliner lezat. Kami mengerti bahwa jadwal dan kebutuhan setiap orang berbeda. Dengan layanan 24 jam, Anda dapat menikmati hidangan favorit Anda kapan pun, siang atau malam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu Camilan  -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-3" id="menu"><b>Menu</b></h2>
+            <p>Berikut adalah menu yang ada di Snacky Snack terdiri dari Menu Camilan, Main Menu, dan juga Menu Minuman.
+            </p>
+
+            <h2 class="display-3" id="menu camilan"><b>Menu Camilan</b></h2>
+            <p>Kami memahami bahwa momen camilan adalah waktu untuk memanjakan diri dan menikmati rasa yang lezat. Oleh karena itu, kami menghadirkan beragam pilihan camilan yang menggoda selera dan siap menemani momen istimewa Anda.
+                Berikut adalah menu camilan yang tersedia di Snacky Sncak.
+            </p>
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/736x/06/53/6a/06536a0aafed81f61f9cf9c8a9742e74.jpg" 
+                        class="card-img-top" 
+                        width="100"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Pastel</h5>
+                          <p class="card-text">Rp 10.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/44/94/7f/44947fd57212c994161e59052a84c203.jpg" 
+                        class="card-img-top" 
+                        width="100"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Lumpia</h5>
+                          <p class="card-text">Rp 10.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/4a/d6/43/4ad643ede6d027be09423c9d3b4b7aeb.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Tahu Jeletot</h5>
+                          <p class="card-text">Rp 5.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/41/58/7b/41587be549c3e4ddda64cc86b69204cd.jpg" 
+                        class="card-img-top" 
+                        width="200"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Mendoan</h5>
+                          <p class="card-text">Rp 5.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/68/9f/98/689f985c8ed36c37294d1b3494a4d633.jpg" 
+                        class="card-img-top" 
+                        width="10"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Kebab</h5>
+                          <p class="card-text">Rp 20.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/d2/30/6d/d2306d9eaa5b230e56ef8487f535c60e.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Cireng Salju</h5>
+                          <p class="card-text">Rp 10.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/736x/59/2b/ac/592bac18cdcbec41638b92a615b7a505.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Mochi Bites</h5>
+                          <p class="card-text">Rp 10.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/474x/54/26/f0/5426f02b048ae5e2a7cbffbdec78fdaa.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Wonton Chili Oil</h5>
+                          <p class="card-text">Rp 20.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/f7/98/84/f79884a9bb0bc93ab4d3ee8b19f981ec.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Hash Brown Cheese Burger</h5>
+                          <p class="card-text">Rp 30.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+    <div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-3" id="menu camilan"><b>Main Menu</b></h2>
+                <p>Di Snacky Snack kami percaya bahwa pengalaman bersantap yang memuaskan dimulai dengan menu utama yang luar biasa. Menu kami telah diracik dengan teliti untuk menyajikan berbagai hidangan yang menggugah selera, dibuat dengan bahan-bahan segar berkualitas tinggi, dan disiapkan dengan keahlian khusus.
+                    Berikut adalah main menu yang tersedia di Snacky Snack.
+                </p>
+                <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/da/5c/da/da5cda18dfe016e38555e7bdd3b08f81.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Katsu</h5>
+                            <p class="card-text">Rp 25.000</p>
+                            <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/c6/32/cc/c632ccf77c5d274d5953d65c131e3907.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Spaghetti and Meatballs</h5>
+                            <p class="card-text">Rp 30.000</p>
+                            <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/cb/99/0c/cb990c00bdfc7540d9431938d563581b.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Sticky Sesame Chicken</h5>
+                            <p class="card-text">Rp 30.000</p>
+                            <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                    </div>
+                </div>
+
+    <div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-3" id="menu camilan"><b>Menu Minuman</b></h2>
+            <p>
+                Kami menawarkan berbagai jenis minuman untuk memenuhi setiap selera dan preferensi. Dari minuman segar tanpa gula hingga minuman favorit Anda dengan sentuhan istimewa, temukan minuman yang sempurna untuk menemani momen Anda di Snacky Snack.
+                Berikut adalah beberapa menu minuman yang ada di Snacky Snack.
+            </p>
+                <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/70/d9/5e/70d95e4a4ff2df1b2d4b100a2d8b3f28.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Ice Tea</h5>
+                          <p class="card-text">Rp 10.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/70/ad/1e/70ad1ecaee9c25763bde80a90e346ddf.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Signature Chocolate</h5>
+                          <p class="card-text">Rp 15.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/15/df/3d/15df3d14c4f674d012fef13c7627d027.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Lemon Tea</h5>
+                          <p class="card-text">Rp 10.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/7b/b3/3f/7bb33f4149df29b815250928ccd6b549.jpg" 
+                        class="card-img-top" 
+                        width="50"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Smoothie Mango</h5>
+                          <p class="card-text">Rp 15.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/3e/d2/ae/3ed2ae7f4b4332fd03befab8e81dcf7d.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Brown Sugar Milk Tea Boba</h5>
+                          <p class="card-text">Rp 20.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img 
+                        src="https://i.pinimg.com/564x/91/de/54/91de542a35434505933b5326f17f19d6.jpg" 
+                        class="card-img-top" 
+                        width="70"
+                        height="500"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Korean Strawberry Milk</h5>
+                          <p class="card-text">Rp 20.000</p>
+                          <a href="#" class="btn btn-primary">Pesan Disini</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimoni Produk  -->
+    <div class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <h2 class="display-3 text-center" id="testimoni produk"><b>Testimoni Produk</b></h2>
+            <p class="text-center">
+                Berikut adalah beberapa testimoni dari customer yang telah berkunjung di Snacky Snack 
+            </p>
+            <div class="clearfix pt-5 pb-5">
+            <img 
+                src="https://i.pinimg.com/736x/b9/38/a8/b938a8f6a502f993d7c762384e3b5c04.jpg" 
+                class="col-md-6 float-md-end mb-3 crop-img" 
+                width="300" 
+                height="300"
+            />
+
+            <p>
+                Begitu memasuki restoran, saya langsung disambut dengan suasana yang hangat dan nyaman. 
+                Harga terjangkau, murah banget padahal enak poll. 
+            </p>
+            <p>
+                Saya memesan Spaghetti dan Lemon Tea. Benar-benar luar biasa! Rasanya begitu kaya dan kompleks, dengan tekstur yang sempurna. 
+                Lemon Tea juga sangat menyegarkan dan melengkapi hidangan dengan sempurna.
+            </p>
+            <p>
+                Staf di Snacky Sncak sangat ramah dan membantu. Mereka dengan sabar menjelaskan menu dan memberikan rekomendasi yang sesuai dengan selera saya. 
+                Saya sangat terkesan dengan keramahan dan profesionalisme mereka.
+            </p>
+            </div>
+        </div>
+    </div>
+    <!-- Contack Us -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container">
+                <h2 class="display-3 text-center " id="contact us"><b>Contact Us</b></h2>
+            <p class="text-center">
+                Lorem ipsum dolor sit amet.
+            </p>
+            <div class="row pb-3">
+                <div class="col-md-6">
+                    <input 
+                    class="form-control form-control-lg mb-3" 
+                    type="text-center" 
+                    placeholder="Nama"
+                    />
+                     <input 
+                    class="form-control form-control-lg mb-3" 
+                    type="text-center" 
+                    placeholder="Email"
+                    />
+                     <input 
+                    class="form-control form-control-lg mb-3" 
+                    type="text-center" 
+                    placeholder="Nomor Telepon"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <textarea class="form-control form-control-lg" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+                <button type="button" class="btn btn-danger btn-lg">
+                    Kirim Pesan
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrM4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+    ></script>
+</body>
+</html>
